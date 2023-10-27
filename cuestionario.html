@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<div style="width: 300px;"></div>
+
+    <form action="/registro/usuarios" method="post">
+
+        <h3>Usted se esta registrando</h3>
+
+        <span>NUMERO DE EJEMPLO</span>
+        <br>
+        <input type="number" id="number">
+    <BR></BR>
+
+        <label for="firstName">Primer nombre: </label>
+    <br>
+        <input type="text" name="firstName" id="firstName" placeholder="Primer nombre" required>
+    <br>
+    <br>
+
+        <label for="apellido">Apellido:</label>
+    <br>
+            <input type="text" name="apellido" id="apellido" placeholder="Apellido" required>
+
+    <br>
+    <br>
+
+        <span>Digite su contraseña:</span>
+    <br>
+            <input type="password" id="password" name="password" placeholder="Contraseña" required maxlength="10" minlength="8">
+
+    <br>
+    <br>
+        
+        <span>Repita su contraseña:</span>
+    <br>
+        <input type="password" id="repeatpassword" name="repeatpassword" placeholder="Repita su contraseña" required maxlength="10" minlength="8">
+    
+    <br>
+    <br>
+
+        <span>Digite su correo electronico:</span>
+    <br>
+        <input type="email" name="email" id="email" placeholder="Digite su correo electronico" required>
+
+    <br>
+    <br>
+
+        <span>Digite su fecha de nacimiento</span>
+    <br> 
+        <input type="date" name="dateborn" id="dateborn" >
+
+    <br>
+    <br>
+    
+        <input type="submit" value="Enviar">
+
+    
+    </form>
+
+
+
+
+
+    </form>
+</body>
+</html>
